@@ -21,7 +21,7 @@ public class Callee {
       Logger logger = LoggerFactory.getLogger(Callee.class);
 
       // This change should not be detected by PeASS since it is not covered by a test
-      logger.info("This is a test");
+      logger.info("This has changed");
    }
 
 }
